@@ -9,7 +9,9 @@ module.exports = {
         },
       },
     ],
-    '@neutrinojs/jest',
+    ['@neutrinojs/jest', {
+      testRegex: '(/test/.*|(\\.|/)(test|spec))\\.[jt]sx?$'
+    }],
     neutrino => {
       neutrino.config.module
         .rule('lint')
