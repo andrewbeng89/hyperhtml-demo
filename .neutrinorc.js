@@ -10,7 +10,7 @@ module.exports = {
       },
     ],
     ['@neutrinojs/jest', {
-      testRegex: '(/test/.*|(\\.|/)(test|spec))\\.[jt]sx?$'
+      testRegex: '(/tests/.*|(\\.|/)(test|spec))\\.[jt]sx?$'
     }],
     neutrino => {
       neutrino.config.module

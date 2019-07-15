@@ -81,6 +81,7 @@
 "@neutrinojs/airbnb-base@^8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/airbnb-base/-/airbnb-base-8.3.0.tgz#5ebd7f6d63776103c613fa4fbc64bcfa7ae6e7bd"
+  integrity sha1-Xr1/bWN3YQPGE/pPvGS8+nrm570=
   dependencies:
     "@neutrinojs/eslint" "^8.3.0"
     eslint "^4.19.1"
@@ -222,6 +223,7 @@
 "@neutrinojs/jest@^8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/jest/-/jest-8.3.0.tgz#9a07267cfd364b64174276754ba4a5fe177c895c"
+  integrity sha1-mgcmfP02S2QXQnZ1S6Sl/hd8iVw=
   dependencies:
     "@neutrinojs/loader-merge" "^8.3.0"
     babel-core "^6.26.3"
@@ -270,6 +272,7 @@
 "@neutrinojs/web@^8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/web/-/web-8.3.0.tgz#c76611042eaf0587606b67c157108c8d90151439"
+  integrity sha1-x2YRBC6vBYdga2fBVxCMjZAVFDk=
   dependencies:
     "@neutrinojs/chunk" "^8.3.0"
     "@neutrinojs/clean" "^8.3.0"
@@ -6169,6 +6172,7 @@ neo-async@^2.5.0, neo-async@^2.6.0:
 neutrino@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/neutrino/-/neutrino-8.3.0.tgz#36feaa00448d7ca413193e58d51798c2568f672d"
+  integrity sha1-Nv6qAESNfKQTGT5Y1ReYwlaPZy0=
   dependencies:
     deep-sort-object "^1.0.2"
     deepmerge "^1.5.2"
