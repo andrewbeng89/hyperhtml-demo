@@ -1,6 +1,7 @@
-import { bind } from 'hyperhtml';
+import hyperelement from 'hyperhtml-element';
 import greeter from './components/greeter';
 
+const { bind } = hyperelement;
 const root = document.getElementById('root');
 let name = '';
 const onNameInput = render => ({ target }) => {

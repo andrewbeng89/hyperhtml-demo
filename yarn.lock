@@ -302,46 +302,56 @@
 "@ungap/create-content@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@ungap/create-content/-/create-content-0.1.4.tgz#e30b40c527d40dbac598672fc2ad497f912b30c6"
+  integrity sha512-YM6YQkF5wUxJlw5yDzEAzJfPK/kXR/GxIARx4NNJCInfx/nirHmy3ujPjfi7CaXjcVCwyfpv3vKQm6h762lbRA==
 
 "@ungap/custom-event@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@ungap/custom-event/-/custom-event-0.2.0.tgz#0d200735806ba13f2cf1e8f8522b2a812e08947e"
+  integrity sha512-jovJx+4IaAL8JAzepJXDBVlS9t9mR3vKbbjcHwHCF+sN0KKCYQ2pNVAlQYiRrPqeNBl5VXU7uUDOKBg9ODB+0Q==
 
 "@ungap/essential-map@^0.1.7":
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/@ungap/essential-map/-/essential-map-0.1.7.tgz#466b181c299f825b1d853901ee88f3ce302b7c71"
+  integrity sha512-zkugZ6xxu0tHHTOfoce5B7ax2anIRP7hGIwKh5MEWH5mWPNXLigxEubkKv5WLUsFELCdKaMfjdqfI0H0/tLhpw==
 
 "@ungap/essential-weakset@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@ungap/essential-weakset/-/essential-weakset-0.1.2.tgz#0d26af948306db5034659df911268ebfbea5e2b8"
+  integrity sha512-Z7CBb/xr5V6wvdkdxKkDN0iUDz+EFfXW+O715VoWaDm1UiP+drx4U6S6aFhqYpKt0vTfbWHqrjdWj44B8q4A3A==
 
 "@ungap/import-node@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@ungap/import-node/-/import-node-0.1.0.tgz#9ad7d3af37c2454504b2bd0b63580063c297d5f1"
+  integrity sha512-FymNeJTWYNrZcnj7HFJwdaAZWrD1bUv8Na60RGIA142qtaRcOZs0KHGh+QSy7u7GNpW6wGnw9EdCQx4IYPE8cg==
 
 "@ungap/is-array@^0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@ungap/is-array/-/is-array-0.1.1.tgz#0169cc0bbd6b8ac21e924dbbe1965da2c6850d23"
+  integrity sha512-867tkp7LhJsOS3iULhhCluRV69bwyRQgBEwZSkm6VnZs8LFVD6VWFugiWc7Zgxwx4Psbrrou15u57n8YNIbKAQ==
 
 "@ungap/template-literal@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@ungap/template-literal/-/template-literal-0.4.0.tgz#bd97e1d20dc3059a026369f59e00f0d205b2351b"
+  integrity sha512-EjYB6WjrUJWUUQfhf+VYKJKBahVvWkJRyf6nC7CUkmbrfC+VKV3QRjypv+yY5Eh1haGDj6xDM1Mw+dtI4878nA==
   dependencies:
     "@ungap/weakmap" "^0.1.4"
 
 "@ungap/template-tag-arguments@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@ungap/template-tag-arguments/-/template-tag-arguments-0.3.0.tgz#209c4963682e58bfea428432b7dbf7d36e432261"
+  integrity sha512-yJobqBniOQ50jGUQJHPT/0/ZZ/Ibnj/7e+Abn63aGX7OmRV609gKfQo8Jr20wx5hRrOMHsNxQGE5hhT6E2jhRQ==
   dependencies:
     "@ungap/template-literal" "^0.4.0"
 
 "@ungap/trim@^0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@ungap/trim/-/trim-0.1.1.tgz#f956174af66689e64156ee0725f4a040f4b5a098"
+  integrity sha512-f2jiPMFD8qmoNV5kxZ6RwSwmnloxtGUcG3W5Fbe9rC3vwXlPxWT0g5J0mN3+rM9C/u1p24gIVTSxNBPOtyu7Sw==
 
 "@ungap/weakmap@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@ungap/weakmap/-/weakmap-0.1.4.tgz#7ca55d2cab02639686b2c90e58cf161b8a3c482d"
+  integrity sha512-TO4TTwlQXdjHKoWgKxsMqApnOV8JruaNilqOg0I04MTYb5+fj9taIVijS4ILwWg0ytQY5DwTKzPWj+0G+7bsXw==
 
 abab@^1.0.3:
   version "1.0.4"
@@ -2866,6 +2876,7 @@ dir-glob@^2.0.0:
 disconnected@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/disconnected/-/disconnected-0.2.1.tgz#4a970bdef1d38bdee8f66322b68b17f288a0b4d3"
+  integrity sha512-483TUpj4dA7Ye42xrErztbw3PKpkboPf1aB9mG4+S+RGGxFVv72hQBbS8MqN8LZLWHzfcmk2tMTRR5CoyxNglg==
 
 dns-equal@^1.0.0:
   version "1.0.0"
@@ -2917,10 +2928,12 @@ domain-browser@^1.1.1:
 domconstants@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/domconstants/-/domconstants-0.1.1.tgz#1675bdd1e8315d62a3c98e9a611fa19584310759"
+  integrity sha512-Pk4K6tLOzSh0cZDuh7TQivZtYLC6Z8dNissoDyy2tQoVNg8ewScxG3AVJO76kLcTta/u7bgEO6xbIR97MiInfA==
 
 domdiff@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/domdiff/-/domdiff-2.0.5.tgz#0edb0df773b31b77462d8a2e4dd9c65d0987c87f"
+  integrity sha512-6ww2+Th/uI2O7gQJeZixJeYvBwqpPJuP0wNcVoY//4YyqdJAYaABPU9LrM7rZqDqEajJ2fP41pMdJ6gBK0aFeA==
   dependencies:
     "@ungap/essential-map" "^0.1.7"
 
@@ -2937,12 +2950,14 @@ domhandler@^2.3.0:
 domsanitizer@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/domsanitizer/-/domsanitizer-0.2.0.tgz#a0f91df923ed68c95da1f73c9991abfccc7f3859"
+  integrity sha512-karqLj2RFQE+76vF4qTnPCfRim+QboJcxwM0v459Vr2NkiIBik/msR5tTq1yKviUePBz4J7VHK1Io3j6wSsq9Q==
   dependencies:
     domconstants "^0.1.1"
 
 domtagger@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/domtagger/-/domtagger-0.4.0.tgz#c88c1da499dceb90bca7314650c74196dfbbab63"
+  integrity sha512-9R0jbiIn6Pyr+0X+RgPrGBOdJTnIsM/arX7jCOAKyFu/FugwtKjg/gyI898uLnLELphEOk/nWyf+nGIPLLMxwQ==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/essential-map" "^0.1.7"
@@ -4479,17 +4494,27 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
 
+hyperhtml-element@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/hyperhtml-element/-/hyperhtml-element-3.9.0.tgz#33dfc2a1c2225fce20e76f25d54170a699957f1a"
+  integrity sha512-cPgLg+kQ5ZaEOgTERC8m09T7T7YfolP/egxzxPD6G/kPBi+L3V3/jRANuC+hM3uvm0B5li3paMkPi7n7kxkS0g==
+  dependencies:
+    hyperhtml "^2.29.0"
+
 hyperhtml-style@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/hyperhtml-style/-/hyperhtml-style-0.1.2.tgz#c7a7904656a95575d5afdd06ac96bb4d757e0197"
+  integrity sha512-ZDRYNClEaqUS0a8RAED0nQRqWmZk7ctdyij3Iw/PqUUef6xhYO87nx9vJNuxg7Yc6J2FdJjXRKbB0iud2ZyzwQ==
 
 hyperhtml-wire@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/hyperhtml-wire/-/hyperhtml-wire-2.1.0.tgz#d4684b7a52c733e9b8df823275f6e5dd1cdc6039"
+  integrity sha512-LqFs/MgvxyMVM8O3Fx7QcCDWWkga3JeMA7C1inHM71PIchupSyj2u/zG8Blw+KfJHIFmEsx09KxOrgykGqoopQ==
 
-hyperhtml@^2.29.4:
+hyperhtml@^2.29.0:
   version "2.29.4"
   resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.29.4.tgz#c8e348f1d5dec70152c7c0cc0cb7a7a33b807fc3"
+  integrity sha512-MCs5nYMBaTx/Bla/AuuYgzEgD66mIrQq1NC3sESXbOIm8zql2iWNfKOL8ffkPpvBYGuTw2F/fycMoiKvgjfvcg==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/custom-event" "^0.2.0"
@@ -5580,6 +5605,7 @@ levn@^0.3.0, levn@~0.3.0:
 lightercollective@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/lightercollective/-/lightercollective-0.3.0.tgz#1f07638642ec645d70bdb69ab2777676f35a28f0"
+  integrity sha512-RFOLSUVvwdK3xA0P8o6G7QGXLIyy1L2qv5caEI7zXN5ciaEjbAriRF182kbsoJ1S1TgvpyGcN485fMky6qxOPw==
 
 load-json-file@^1.0.0:
   version "1.1.0"

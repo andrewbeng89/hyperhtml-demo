@@ -16,6 +16,6 @@
     "neutrino": "^8.3.0"
   },
   "dependencies": {
-    "hyperhtml": "^2.29.4"
+    "hyperhtml-element": "^3.9.0"
   }
 }
