@@ -4,16 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "neutrino build",
-    "start": "neutrino start",
-    "lint": "neutrino lint",
-    "test": "neutrino test"
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src",
+    "test": "jest"
   },
   "devDependencies": {
     "@neutrinojs/airbnb-base": "9.0.0-rc.3",
     "@neutrinojs/jest": "9.0.0-rc.3",
     "@neutrinojs/web": "9.0.0-rc.3",
-    "neutrino": "9.0.0-rc.3"
+    "eslint": "^5.x.x",
+    "jest": "^24.8.0",
+    "neutrino": "9.0.0-rc.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "hyperhtml-element": "^3.9.0"

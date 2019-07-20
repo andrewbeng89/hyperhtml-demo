@@ -1,17 +1,14 @@
+const airbnbBase = require('@neutrinojs/airbnb-base');
+const web = require('@neutrinojs/web');
+const jest = require('@neutrinojs/jest');
+
 module.exports = {
   use: [
-    '@neutrinojs/airbnb-base',
-    [
-      '@neutrinojs/web',
-      {
-        html: {
-          title: 'hyperhtml-demo',
-        },
-      },
-    ],
-    ['@neutrinojs/jest', {
+    airbnbBase(),
+    web(),
+    jest({
       testRegex: '(/tests/.*|(\\.|/)(test|spec))\\.[jt]sx?$'
-    }],
+    }),
     neutrino => {
       neutrino.config.module
         .rule('lint')
