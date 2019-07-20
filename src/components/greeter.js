@@ -1,7 +1,20 @@
-import hyperhtml from 'hyperhtml-element';
+import HyperHTMLElement from 'hyperhtml-element';
 
-const { wire } = hyperhtml;
-export default ({ name }) =>
-  wire()`
-    <p>Hello, ${name}!</p>
-  `;
+class Greeter extends HyperHTMLElement {
+  static get observedAttributes() {
+    return ['name'];
+  }
+
+  attributeChangedCallback() {
+    this.render();
+  }
+
+  render() {
+    return this.html`
+      <p>Hello, ${this.name}!</p>
+    `;
+  }
+}
+
+Greeter.define('my-greeter');
+
