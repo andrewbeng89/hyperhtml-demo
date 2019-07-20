@@ -10,10 +10,10 @@
     "test": "neutrino test"
   },
   "devDependencies": {
-    "@neutrinojs/airbnb-base": "^8.3.0",
-    "@neutrinojs/jest": "^8.3.0",
-    "@neutrinojs/web": "^8.3.0",
-    "neutrino": "^8.3.0"
+    "@neutrinojs/airbnb-base": "9.0.0-rc.3",
+    "@neutrinojs/jest": "9.0.0-rc.3",
+    "@neutrinojs/web": "9.0.0-rc.3",
+    "neutrino": "9.0.0-rc.3"
   },
   "dependencies": {
     "hyperhtml-element": "^3.9.0"

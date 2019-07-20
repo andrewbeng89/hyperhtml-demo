@@ -17,4 +17,3 @@ class Greeter extends HyperHTMLElement {
 }
 
 Greeter.define('my-greeter');
-

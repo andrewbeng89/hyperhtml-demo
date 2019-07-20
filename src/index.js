@@ -17,8 +17,7 @@ const onNameEnter = render => ({ code }) => {
   }
 };
 
-const render = () =>
-  bind(root)`
+const render = () => bind(root)`
     <div style="padding: 20px"><h1>Welcome to hyperhtml-demo</h1></div>
     <h4>Please enter your name:</h4>
     <input value="${name}" oninput="${onNameInput(render)}" onkeydown="${onNameEnter(render)}">
