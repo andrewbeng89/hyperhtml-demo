@@ -22,7 +22,9 @@ const render = () => bind(root)`
     <h4>Please enter your name:</h4>
     <input value="${name}" oninput="${onNameInput(render)}" onkeydown="${onNameEnter(render)}">
     ${names.map(n => (`
-      <my-greeter name=${n}></my-greeter>
+      <my-greeter name=${n}>
+        <p>Welcome to the party!</p>
+      </my-greeter>
     `))}
   `;
 render();
