@@ -11,15 +11,13 @@ class Greeter extends HyperHTMLElement {
 
   render() {
     return this.html`
-      <p>Hello, ${this.name}!</p>
-      <slot name="pleasure">
-        <p>Nice to meet you!</p>
-      </slot>
+      <p>
+        Hello, ${this.name}!
+      </p>
     `;
   }
 
   created() {
-    this.attachShadow({ mode: 'open' });
     this.render();
   }
 }

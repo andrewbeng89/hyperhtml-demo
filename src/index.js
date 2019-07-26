@@ -23,9 +23,8 @@ const render = () => bind(root)`
     <input value="${name}" oninput="${onNameInput(render)}" onkeydown="${onNameEnter(render)}">
     ${names.map(n => (`
       <my-greeter name=${n}>
-        <p>Welcome to the party!</p>
       </my-greeter>
-    `))}
+      `))}
   `;
 render();
 
